@@ -1,0 +1,17 @@
+Creating and integrating a JWT authentication service
+
+1. Create a project, 
+npm init -y 
+
+This will ask a number of questions shc as the version, the name, licence, scripts, description, author, keywords, package.jason
+
+2. Install the modules
+npm install express dotenv jsonwebtoken nodemon uuid
+*express - minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+*dotenv - loads the environment variables from the .env file
+*JasonwebToken - for authentication and authorization
+*Nodemon - helps you run and update the server wtih out the need of runing the command on the terminal every single time
+*UUID - universal unique identifier, generating random IDs
+
+
+3. Create a server
